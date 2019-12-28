@@ -51,7 +51,7 @@ Using the rules above, the following markdown:
 Will render this HTML:
 ```html
 <h1 class="text-3xl">Title 1</h1>
-<h2 class="text-2xl">Title 2</h2>
+<h2 class="text-2xl font-sans">Title 2</h2>
 <h3 class="text-xl">Title 3</h3>
 ```
 
