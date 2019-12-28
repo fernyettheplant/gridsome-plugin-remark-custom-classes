@@ -20,6 +20,14 @@
     "remark",
     "remark-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jefer590/gridsome-plugin-remark-classes"
+  },
+  "bugs": {
+    "url": "https://github.com/jefer590/gridsome-plugin-remark-classes/issues"
+  },
+  "homepage": "https://github.com/jefer590/gridsome-plugin-remark-classes#readme",
   "dependencies": {
     "unist-util-select": "^3.0.0"
   },
