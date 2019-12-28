@@ -1,6 +1,0 @@
-- pipeline: "Health Check"
-  trigger_mode: "ON_EVERY_PUSH"
-  ref_name: "*"
-  ref_type: "WILDCARD"
-  clone_depth: 1
-  trigger_condition: "ALWAYS"
