@@ -1,7 +1,7 @@
-# gridsome-plugin-remark-classes
+# gridsome-plugin-remark-custom-classes
 
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
-[![buddy pipeline](https://app.buddy.works/jefer590/gridsome-plugin-remark-classes/pipelines/pipeline/231166/badge.svg?token=6e8dcf75b06e1172ac5a72d9170909b7bb8a6168588aaae14313b498478e4642 "buddy pipeline")](https://app.buddy.works/jefer590/gridsome-plugin-remark-classes/pipelines/pipeline/231166)
+[![buddy pipeline](https://app.buddy.works/jefer590/gridsome-plugin-remark-custom-classes/pipelines/pipeline/231166/badge.svg?token=6e8dcf75b06e1172ac5a72d9170909b7bb8a6168588aaae14313b498478e4642 "buddy pipeline")](https://app.buddy.works/jefer590/gridsome-plugin-remark-custom-classes/pipelines/pipeline/231166)
 
 **Heavily** based on [chrisg86/gatsby-remark-classes](https://github.com/chrisg86/gatsby-remark-classes).
 
@@ -11,14 +11,14 @@ This **Gridsome Remark plugin** will help you to add css classes to your markdow
 
 ```shell script
 # npm
-npm install --save @jefer590/gridsome-plugin-remark-classes
+npm install --save @jefer590/gridsome-plugin-remark-custom-classes
 
 #yarn
-yarn add @jefer590/gridsome-plugin-remark-classes
+yarn add @jefer590/gridsome-plugin-remark-custom-classes
 ```
 
 ## Usage
-In the `gridsome.config.js` file, add the plugin in the remark object in transformers: 
+In the `gridsome.config.js` file, add the plugin in the remark object in transformers:
 
 ```javascript
 module.exports = {
@@ -26,7 +26,7 @@ module.exports = {
       // Add markdown support to all file-system sources
       remark: {
         plugins: [
-          ['@jefer590/gridsome-plugin-remark-classes', {
+          ['@jefer590/gridsome-plugin-remark-custom-classes', {
             classMap: {
               'heading[depth=1]': 'text-3xl',
               'heading[depth=2]': ['text-2xl', 'font-sans'],

@@ -1,5 +1,5 @@
 {
-  "name": "@jefer590/gridsome-plugin-remark-classes",
+  "name": "@jefer590/gridsome-plugin-remark-custom-classes",
   "version": "1.0.0",
   "description": "Gridsome Remark Plugin to Add classes to generated HTML",
   "main": "src/plugin.js",
@@ -22,12 +22,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jefer590/gridsome-plugin-remark-classes"
+    "url": "https://github.com/jefer590/gridsome-plugin-remark-custom-classes"
   },
   "bugs": {
-    "url": "https://github.com/jefer590/gridsome-plugin-remark-classes/issues"
+    "url": "https://github.com/jefer590/gridsome-plugin-remark-custom-classes/issues"
   },
-  "homepage": "https://github.com/jefer590/gridsome-plugin-remark-classes#readme",
+  "homepage": "https://github.com/jefer590/gridsome-plugin-remark-custom-classes#readme",
   "dependencies": {
     "unist-util-select": "^3.0.0"
   },
@@ -38,7 +38,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "husky": "^3.1.0"
+    "husky": "^4.0.1"
   },
   "husky": {
     "hooks": {
